@@ -30,7 +30,7 @@ public class StaticAndNonStaticVariable {
 		System.out.println("Hey, value of d is:" +obj1.d);
 
 		// we can also call static methods and variables with object reference variable and we will get warning. In this case program will be run fine but this is not a good pratice
-		System.out.println(obj1.a);
+		System.out.println("Value of a is: " + obj1.a);
 		obj1.A();
 	}
 }
