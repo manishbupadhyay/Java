@@ -2,16 +2,16 @@ import java.util.ArrayList;
 
 public class ArrayListConcept {
     public static void main(String[] args) {
-        ArrayList arr = new ArrayList<>();
-        arr.add(0, 100);
-        arr.add(1, "Manish");
-        arr.add(2, 'A');
-        arr.add(3, 500);
-        arr.add(4, 123.77);
-        arr.add(5, true);
-        arr.add(6, "Aadi");
-        arr.add(7, 'M');
-        arr.add(8, 700);
+        ArrayList arr = new ArrayList();
+        arr.add(100);
+        arr.add("Manish");
+        arr.add('A');
+        arr.add(500);
+        arr.add(123.77);
+        arr.add(true);
+        arr.add("Aadi");
+        arr.add('M');
+        arr.add(700);
 
 
         System.out.println(arr.get(0));
