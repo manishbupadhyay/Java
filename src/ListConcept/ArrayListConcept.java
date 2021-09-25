@@ -28,6 +28,8 @@ public class ArrayListConcept {
 		
 		System.out.println(arr.get(4)); // to get value from an index
 		
+		arr.remove(1);
+		
 		System.out.println("===============================================");
 		// to print all the values from arraylist
 		//1. for loop
